@@ -1,0 +1,45 @@
+[
+  {
+    "name": "首页",
+    "Class": "iconfont icon-shequ bt_s",
+    "url": "/home",
+    "children": []
+  },
+  {
+    "name": "自定义网站",
+    "Class": "iconfont icon-wangzhan bt_s",
+    "url": "/local",
+    "children": []
+  },
+  {
+    "name": "每日一粒",
+    "Class": "iconfont icon-bd_linggan bt_s",
+    "url": "/daily",
+    "children": []
+  },
+  {
+    "name": "豆瓣TOP250",
+    "Class": "iconfont icon-bd_linggan bt_s",
+    "url": "/top250",
+    "children": []
+  },
+  {
+    "name": "设计观赏",
+    "Class": "iconfont icon-sheji bt_s",
+    "url": "/design",
+    "children": [
+      {"id": 0, "name": "必看", "Url": "/Web_design/design/bk"},
+      {"id": 1, "name": "灵感", "Url": "/Web_design/design/lg"},
+      {"id": 2, "name": "资讯", "Url": "/Web_design/design/zx"},
+      {"id": 3, "name": "UI-UX", "Url": "/Web_design/design/ui"},
+      {"id": 4, "name": "图标", "Url": "/Web_design/design/tb"},
+      {"id": 5, "name": "图库", "Url": "/Web_design/design/tk"},
+      {"id": 6, "name": "配色", "Url": "/Web_design/design/ps"},
+      {"id": 7, "name": "字体", "Url": "/Web_design/design/zt"},
+      {"id": 8, "name": "素材", "Url": "/Web_design/design/sc"},
+      {"id": 9, "name": "规范", "Url": "/Web_design/design/gf"},
+      {"id": 10, "name": "工具", "Url": "/Web_design/design/gj"},
+      {"id": 11, "name": "社区", "Url": "/Web_design/design/sq"}
+    ]
+  }
+]
