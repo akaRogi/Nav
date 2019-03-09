@@ -4,14 +4,14 @@
     "name": "网页",
     "url": "/home",
     "list": [
-      {"name": "百度", "url": "/home/web/", "open": "https://www.baidu.com/s?ie=utf-8&&wd="},
-      {"name": "百度新闻", "url": "/home/web/news", "open": "http://news.baidu.com/ns?word="},
-      {"name": "必应", "url": "/home/web/bingy", "open": "https://cn.bing.com/search?q="},
-      {"name": "搜狗", "url": "/home/web/sougou", "open": "https://www.sogou.com/web?query="},
-      {"name": "百度百科", "url": "/home/web/baike", "open": "https://baike.baidu.com/item/"},
-      {"name": "新浪微博", "url": "/home/web/xingna", "open": "http://s.weibo.com/weibo/"},
-      {"name": "知乎", "url": "/home/web/zhihu", "open": "https://www.zhihu.com/search?q="},
-      {"name": "谷歌", "url": "/home/web/google", "open": "https://www.google.com.hk/search?safe=strict&source=hp&ei=dbByW_DRN4j28gXq1Yv4Aw&q="}
+      {"name": "百度", "open": "https://www.baidu.com/s?ie=utf-8&&wd=", "url": "http://www.baidu.com"},
+      {"name": "百度新闻", "open": "http://news.baidu.com/ns?word=", "url": "http://news.baidu.com/"},
+      {"name": "必应", "open": "https://cn.bing.com/search?q=", "url": "http://cn.bing.com/"},
+      {"name": "搜狗", "open": "https://www.sogou.com/web?query=", "url": "http://www.sogou.com/"},
+      {"name": "百度百科", "open": "https://baike.baidu.com/item/", "url": "http://baike.baidu.com/"},
+      {"name": "新浪微博", "open": "http://s.weibo.com/weibo/", "url": "http://weibo.com/"},
+      {"name": "知乎", "open": "https://www.zhihu.com/search?q=", "url": "http://www.zhihu.com"},
+      {"name": "谷歌", "open": "https://www.google.com.hk/search?safe=strict&source=hp&ei=dbByW_DRN4j28gXq1Yv4Aw&q=", "url": "http://www.google.com.hk"}
     ]
   },
   {
@@ -19,12 +19,12 @@
     "name": "图片",
     "url": "/home/img",
     "list": [
-      {"name": "百度图片", "url": "/home/img/", "open": "https://image.baidu.com/search/index?tn=baiduimage&word="},
-      {"name": "花瓣", "url": "/home/img/hb", "open": "http://huaban.com/search/?q="},
-      {"name": "500px", "url": "/home/img/500px", "open": "https://500px.com/search?q="},
-      {"name": "昵图网", "url": "/home/img/ntw", "open": "http://soso.nipic.com/?q="},
-      {"name": "站酷", "url": "/home/img/zk", "open": "https://www.zcool.com.cn/search/content?word="},
-      {"name": "站长素材", "url": "/home/img/zzsc", "open": "http://aspx.sc.chinaz.com/query.aspx?keyword="}
+      {"name": "百度图片", "open": "https://image.baidu.com/search/index?tn=baiduimage&word=", "url": "http://image.baidu.com"},
+      {"name": "花瓣", "open": "http://huaban.com/search/?q=", "url": "http://huaban.com/"},
+      {"name": "500px", "open": "https://500px.com/search?q=", "url": "http://web.500px.com"},
+      {"name": "昵图网", "open": "http://soso.nipic.com/?q=", "url": "http://www.nipic.com/"},
+      {"name": "站酷", "open": "https://www.zcool.com.cn/search/content?word=", "url": "http://www.zcool.com.cn"},
+      {"name": "站长素材", "open": "http://aspx.sc.chinaz.com/query.aspx?keyword=", "url": "http://sc.chinaz.com/"}
     ]
   },
   {
@@ -32,10 +32,10 @@
     "name": "音乐",
     "url": "/home/music",
     "list": [
-      {"name": "网易云音乐", "url": "/home/music/", "open": "https://music.163.com/#/search/m/?s="},
-      {"name": "虾米音乐", "url": "/home/music/xmyy", "open": "https://www.xiami.com/search?key="},
-      {"name": "QQ音乐", "url": "/home/music/qqyy", "open": "https://y.qq.com/portal/search.html?&w="},
-      {"name": "酷狗音乐", "url": "/home/music/kgyy", "open": "http://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord="}
+      {"name": "网易云音乐", "open": "https://music.163.com/#/search/m/?s=", "url": "http://music.163.com"},
+      {"name": "虾米音乐", "open": "https://www.xiami.com/search?key=", "url": "http://www.xiami.com"},
+      {"name": "QQ音乐", "open": "https://y.qq.com/portal/search.html?&w=", "url": "http://y.qq.com"},
+      {"name": "酷狗音乐", "open": "http://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=", "url": "http://www.kugou.com"}
     ]
   },
   {
@@ -43,9 +43,9 @@
     "name": "视频",
     "url": "/home/video",
     "list": [
-      {"name": "B站", "url": "/home/video/", "open": "http://search.bilibili.com/all?keyword="},
-      {"name": "芒果Tv", "url": "/home/video/mgtv", "open": "http://so.mgtv.com/so/k-"},
-      {"name": "爱奇艺", "url": "/home/video/aqy", "open": "http://so.iqiyi.com/so/q_"}
+      {"name": "B站", "open": "http://search.bilibili.com/all?keyword=", "url": "http://www.bilibili.com"},
+      {"name": "芒果Tv", "open": "http://so.mgtv.com/so/k-", "url": "http://www.mgtv.com"},
+      {"name": "爱奇艺", "open": "http://so.iqiyi.com/so/q_", "url": "http://www.iqiyi.com/"}
     ]
   },
   {
@@ -53,10 +53,10 @@
     "name": "网购",
     "url": "/home/tb",
     "list": [
-      {"name": "淘宝", "url": "/home/tb/", "open": "https://s.taobao.com/search?q="},
-      {"name": "京东", "url": "/home/tb/jd", "open": "http://search.jd.com/Search?enc=utf-8&keyword="},
-      {"name": "天猫", "url": "/home/tb/tianmao", "open": "https://list.tmall.com/search_product.htm?q="},
-      {"name": "亚马逊", "url": "/home/tb/yamaxun", "open": "https://www.amazon.cn/s/?field-keywords="}
+      {"name": "淘宝", "open": "https://s.taobao.com/search?q=", "url": "http://www.taobao.com"},
+      {"name": "京东", "open": "http://search.jd.com/Search?enc=utf-8&keyword=", "url": "http://www.jd.com"},
+      {"name": "天猫", "open": "https://list.tmall.com/search_product.htm?q=", "url": "http://www.tmall.com"},
+      {"name": "亚马逊", "open": "https://www.amazon.cn/s/?field-keywords=", "url": "http://www.amazon.cn"}
     ]
   },
   {
@@ -64,11 +64,11 @@
     "name": "工具",
     "url": "/home/tool",
     "list": [
-      {"name": "微信公众号", "url": "/home/tool/", "open": "http://weixin.sogou.com/weixin?ie=utf8&type=1&query="},
-      {"name": "搜狗微信", "url": "/home/tool/wx", "open": "http://weixin.sogou.com/weixin?ie=utf8&type=2&query="},
-      {"name": "百度地图", "url": "/home/tool/dt", "open": "http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D"},
-      {"name": "中关村", "url": "/home/tool/zgc", "open": "http://detail.zol.com.cn/index.php?c=Searchlist&keyword="},
-      {"name": "二维码生成", "url": "/home/tool/ewm", "open": "https://cli.im/?"}
+      {"name": "微信公众号", "open": "http://weixin.sogou.com/weixin?ie=utf8&type=1&query=", "url": "http://weixin.sogou.com"},
+      {"name": "搜狗微信", "open": "http://weixin.sogou.com/weixin?ie=utf8&type=2&query=", "url": "http://weixin.sogou.com"},
+      {"name": "百度地图", "open": "http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D", "url": "http://map.baidu.com"},
+      {"name": "中关村", "open": "http://detail.zol.com.cn/index.php?c=Searchlist&keyword=", "url": "http://detail.zol.com.cn/"},
+      {"name": "二维码生成", "open": "https://cli.im/?", "url": "http://cli.im"}
     ]
   }
 ]

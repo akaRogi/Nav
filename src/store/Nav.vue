@@ -92,7 +92,9 @@ export default {
         }, 20)
       }
       console.log(scrollTop)
-      this.$store.commit('LeftNavFn')
+      if (this.off) {
+        this.$store.commit('LeftNavFn')
+      }
     }
   },
   created () {
@@ -114,6 +116,7 @@ export default {
     if (!flag) {
       this.off = true
       this.$store.commit('scrollFn', 250)
+      console.log(222)
     }
   }
 }

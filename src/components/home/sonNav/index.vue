@@ -4,6 +4,7 @@
       v-for="(item, index) in list"
       :key="index"
       @click="Update(item, index)"
+      @dblclick.stop="openGw(item)"
     >
       <div>
         <div :class="{show : show === index}"></div>
@@ -33,6 +34,10 @@ export default {
         let keyword = document.getElementById('keyword')
         keyword.focus()
       }, 200)
+    },
+    openGw (data) {
+      open(data.url)
+      console.log(data.url)
     }
   },
   created () {
@@ -50,6 +55,10 @@ li{
   font-size: 18px;
   margin-right: 20px;
   cursor: pointer;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 li div div {
   width: 10px;
